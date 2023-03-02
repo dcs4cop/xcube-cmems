@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-package"
+version = "0.1.0"
+description = "My package description"
+license = "MIT"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+xcube= "^0.12.1"
+pydap= "<=3.3.0"
+lxml= "<=4.9.1"
+owslib= ""
+pyproj= ""
+zarr= ""
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
